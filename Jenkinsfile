@@ -20,7 +20,7 @@ pipeline {
             		// Send email notification
             		emailext subject: "Build Notification",
                      		body: "Build status: ${currentBuild.currentResult}",
-                     		to: "vannamaneni@qastile.com",
+                     		to: "qastiles@gmail.com",
                      		from: "qastiles@gmail.com"
                   }
             }
